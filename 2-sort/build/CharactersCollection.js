@@ -11,8 +11,7 @@ class CharactersCollction extends Sorter_1.Sorter {
         return this.data.length;
     }
     compare(leftIndex, rightIndex) {
-        return (this.data[leftIndex].toLocaleLowerCase() >
-            this.data[rightIndex].toLocaleLowerCase());
+        return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
     }
     swap(leftIndex, rightIndex) {
         const characters = this.data.split("");
