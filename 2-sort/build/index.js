@@ -1,22 +1,18 @@
 "use strict";
-class Sorter {
-    constructor(collection) {
-        this.collection = collection;
-    }
-    sort() {
-        const { length } = this.collection;
-        for (let i = 0; i < length; i++) {
-            for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection[j] > this.collection[j + 1]) {
-                    const leftHand = this.collection[j];
-                    this.collection[j] = this.collection[j + 1];
-                    this.collection[j + 1] = leftHand;
-                }
-            }
-        }
-    }
-}
-const sorter = new Sorter([10, 3, -5, 0]);
-console.log(sorter.collection);
-sorter.sort();
-console.log(sorter.collection);
+Object.defineProperty(exports, "__esModule", { value: true });
+const NumberCollection_1 = require("./NumberCollection");
+const CharactersCollection_1 = require("./CharactersCollection");
+const LinkedList_1 = require("./LinkedList");
+const numberCollection = new NumberCollection_1.NumberCollection([-2, 10, 3, -5, 0]);
+numberCollection.sort();
+console.log(numberCollection.data);
+const charactersCollection = new CharactersCollection_1.CharactersCollction("aAagysa");
+charactersCollection.sort();
+console.log(charactersCollection.data);
+const linkedList = new LinkedList_1.LinkedList();
+linkedList.add(500);
+linkedList.add(-10);
+linkedList.add(-3);
+linkedList.add(4);
+linkedList.sort();
+linkedList.print();
