@@ -1,6 +1,6 @@
 import fs from "fs";
 
-import { OutputTarget } from "../Summary";
+import { OutputTarget } from "../Analysis";
 
 export class HtmlReports implements OutputTarget {
   print(report: string): void {
