@@ -11,8 +11,11 @@ parcel index.html
 
 # Showcase
 
-![Show map with user and company marker](map-1.png)
+##Randomly show map with user and company location
+![Image 1](map-1.png)
 
-![Show map with user and company marker](map-2.png)
+##When a marker is clicked, it's going to show you user information 
+![Image 2](map-2.png)
 
-![Show map with user and company marker](map-3.png)
+##When another marker is clicked, it's going to show you company information
+![Image 3](map-3.png)
