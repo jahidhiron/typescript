@@ -12,3 +12,7 @@ parcel index.html
 # Showcase
 
 ![Show map with user and company marker](map-1.png)
+
+![Show map with user and company marker](map-2.png)
+
+![Show map with user and company marker](map-3.png)
