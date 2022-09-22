@@ -8,3 +8,7 @@
 # Run
 
 parcel index.html
+
+# Showcase
+
+![Show map with user and company marker](map-1.png)
