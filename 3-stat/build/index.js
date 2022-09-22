@@ -6,5 +6,5 @@ const matchReader = MatchReader_1.MatchReader.fromCsv("football.csv");
 matchReader.load();
 const consoleReport = Summary_1.Analysis.winsAnalysisWithConsoleReport("Man United");
 consoleReport.buildAndPrintReport(matchReader.matches);
-const htmlReport = Summary_1.Analysis.winsAnalysisWithHtmlReport("Man United");
+const htmlReport = Summary_1.Analysis.winsAnalysisWithHtmlReport("Chelsea");
 htmlReport.buildAndPrintReport(matchReader.matches);
